@@ -7,9 +7,9 @@
 
 body {
   background: #fff;
-  font-family: 'Open Sans', sans-serif;
-  color:#4e4e4e;
-  line-height: 22px;
+  font-family: 'Sanchez', sans-serif;
+  color:#848484;
+  line-height: 1.6;
 }
 
 h1,
@@ -18,8 +18,8 @@ h3,
 h4,
 h5,
 h6 {
-  font-weight: 600; 
-  font-family: 'Open Sans', sans-serif;
+  font-weight: 500; 
+  font-family: 'Sanchez', sans-serif;
   color:#4e4e4e;
 }
 
@@ -29,7 +29,7 @@ h1{
 }
 
 h2{
-  font-size: 20px;
+  font-size: 45px;
 }
 
 h3{
@@ -184,7 +184,7 @@ body > section {
 
 .top-bar {
   padding: 10px 0;
-  background: #A7A7A7;
+  background: #1EBB11;
   border-bottom: 1px solid #222;
   line-height: 28px;
 }
@@ -406,7 +406,7 @@ input.search-form:hover {
   position: absolute;
   width: 100%;
   display: block !important;
-  height: 730px;
+  height: 630px;
   -webkit-transition: opacity ease-in-out 500ms;
   -moz-transition: opacity ease-in-out 500ms;
   -o-transition: opacity ease-in-out 500ms;
@@ -1229,7 +1229,8 @@ ul.social_icons li  a i{
 
 .team .social_icons .fa-facebook:hover, 
 .team .social_icons .fa-twitter:hover, 
-.team .social_icons .fa-google-plus:hover {
+.team .social_icons .fa-google-plus:hover,
+.team .social_icons .fa-envelope:hover, {
   transform: rotate(360deg);
   -ms-transform:rotate(360deg);
   -webkit-transform:rotate(360deg); 
@@ -1253,6 +1254,9 @@ ul.social_icons li  a i{
 
 .team .social_icons .fa-google-plus {
   background: #D34836
+}
+.team .social_icons .fa-envelope {
+  background: #D34836;
 }
 
 
@@ -2521,7 +2525,7 @@ shortcodes page css
   display: inline-block;
   margin-left: 15px;
 }
-.prayer-times1{margin:10px;width:15em;float: left;}
+.prayer-times1{margin:10px;width:15em; float: left;}
 .prayer-times1 h3{background-color:rgba(206,206,206,0.32);padding-bottom:.5em;padding-top:.5em;text-align:center}
 .prayer-times2{margin:10px;width:15em;float: left;}
 .prayer-times2 h3{color:#fff;background-color:#3498db;padding-bottom:.5em;padding-top:.5em;text-align:center}
