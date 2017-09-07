@@ -2525,6 +2525,29 @@ shortcodes page css
   display: inline-block;
   margin-left: 15px;
 }
+/*body {
+  padding-top: 50px;
+}*/
+ 
+.thumbnail {
+    position:relative;
+    overflow:hidden;
+}
+ 
+.caption {
+    position:absolute;
+    top:0;
+    right:0;
+    background:rgba(66, 139, 202, 0.75);
+    width:100%;
+    height:100%;
+    padding:2%;
+    display: none;
+    text-align:center;
+    color:#fff !important;
+    z-index:2;
+}
+
 .prayer-times1{margin:10px;width:15em; float: left;}
 .prayer-times1 h3{background-color:rgba(206,206,206,0.32);padding-bottom:.5em;padding-top:.5em;text-align:center}
 .prayer-times2{margin:10px;width:15em;float: left;}
