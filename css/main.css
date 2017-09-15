@@ -2557,5 +2557,14 @@ shortcodes page css
 .prayer-times4{margin:10px;width:15em;float: left;}
 .prayer-times4 h3{color:#fff;background-color:#f39c12;padding-bottom:.5em;padding-top:.5em;text-align:center}
 table {margin: auto;}
-.shadow-box{position:relative;width:16em;height:19em;background-color:#fff;box-shadow:0 1px 5px rgba(0,0,0,0.25),0 0 50px rgba(0,0,0,0.1) inset;border-radius:1% 1% 1% 1% / 1% 1% 1% 1%}
-.shadow-box:before{position:absolute;width:16em;height:16em;border-radius:10px / 100px;z-index:-1;top:3%;bottom:3%;content:"";box-shadow:0 0 13px rgba(0,0,0,0.73)}
+.shadow-box{position:relative;width:16em;height:23em;background-color:#fff;box-shadow:0 1px 5px rgba(0,0,0,0.25),0 0 50px rgba(0,0,0,0.1) inset;border-radius:1% 1% 1% 1% / 1% 1% 1% 1%}
+.shadow-box:before{position:absolute;width:16em;height:22em;border-radius:10px / 100px;z-index:-1;top:3%;bottom:3%;content:"";box-shadow:0 0 13px rgba(0,0,0,0.73)}
+
+
+/*Shadow box for prayer times*/
+.shadow-box1{position:relative;width:16em;height:32.5em;background-color:#fff;box-shadow:0 1px 5px rgba(0,0,0,0.25),0 0 50px rgba(0,0,0,0.1) inset;border-radius:1% 1% 1% 1% / 1% 1% 1% 1%}
+.shadow-box1:before{position:absolute;width:16em;height:30em;border-radius:10px / 100px;z-index:-1;top:3%;bottom:3%;content:"";box-shadow:0 0 13px rgba(0,0,0,0.73)}
+
+
+
+
