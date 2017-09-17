@@ -2566,5 +2566,31 @@ table {margin: auto;}
 .shadow-box1:before{position:absolute;width:16em;height:30em;border-radius:10px / 100px;z-index:-1;top:3%;bottom:3%;content:"";box-shadow:0 0 13px rgba(0,0,0,0.73)}
 
 
+/*Friday Prayer blink code*/
+.blink {
+  -webkit-animation-name: blink;
+     -moz-animation-name: blink;
+       -o-animation-name: blink;
+          animation-name: blink;
+  -webktit-animation-timing-function: linear;
+      -moz-animation-timing-function: linear;
+        -o-animation-timing-function: linear;
+           animation-timing-function: linear;
+  -webkit-animation-duration: 1s;
+     -moz-animation-duration: 1s;
+       -o-animation-duration: 1s;
+          animation-duration: 2s;
+}
 
+.blink-infinite {
+  -webkit-animation-iteration-count: infinite;
+     -moz-animation-iteration-count: infinite;
+       -o-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+}
+@-webkit-keyframes blink {
+  50% {
+    opacity: .1;
+  }
+}
 
