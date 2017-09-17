@@ -2593,4 +2593,20 @@ table {margin: auto;}
     opacity: .1;
   }
 }
+/*Friday prayer: + content in one line*/
+#block_container
+{
+    text-align:center;
+}
+#bloc1
+{
+    display:inline-block;
+}
+
+
+
+
+
+
+
 
