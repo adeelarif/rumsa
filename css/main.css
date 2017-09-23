@@ -2603,7 +2603,10 @@ table {margin: auto;}
     display:inline-block;
 }
 
-
+/*feedback form */
+div.feedback{
+  margin-left: 10cm;
+}
 
 
 
