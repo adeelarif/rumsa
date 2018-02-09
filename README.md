@@ -1,5 +1,5 @@
-Welcome to Muslims of Rutgers Website, website is under construction.  
+Welcome to Muslims of Rutgers Website! 
 
-Check the following link in the meantime: https://adeelarif.github.io/rumsa/
+Click the following link to go to the website: http://www.muslimsofrutgers.com
 
-Thanks for your patience. 
+Try this link if the above link doesn't work: https://adeelarif.github.io/rumsa/
