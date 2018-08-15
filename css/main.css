@@ -189,13 +189,59 @@ body > section {
   line-height: 28px;
 }
 
-.top-number{
-  color: #fff;
+/*Alert button for header updates */
+.top-header{
+/* display: inherit;*/
+ list-style: none;
+ padding: 0;
+ margin: 0;
 }
 
-.top-number p{
-  margin: 0
+.top-header{
+    color: #fff;
+    width: 255px;
+    height: 25px;
+    position: relative;
+    /*left: 50%;*/
+    border-radius: .15em;
+    /*box-shadow: 0 0 10px rgba(0, 0, 0, .2);*/
+
+    background: #404040;
+    text-align:center;
+    cursor:pointer;  
+    vertical-align: middle;
+    line-height: 25px;
+    margin-top: 2.2px;
+  
+    animation: myalert;
+    animation-duration:2000ms;
+    animation-iteration-count:infinite;
 }
+div.top-header a {
+    /*background: #404040;*/
+    color: #fff;
+}
+/*div.top-header a:hover {
+    background: #1EBB11;
+    color: #fff;
+}*/
+
+@keyframes myalert {
+  10% { background-color: green; }
+/*  15% { transform: rotate(-5deg) }
+  16% { transform: rotate(5deg) }
+  17% { transform: rotate(-5deg) }
+  18% { transform: rotate(5deg) }*/
+  22% { transform: scale(1) }
+  40% { 
+    transform: rotate(0deg);
+    transform: scale(1)
+  }
+  100% { transform: rotate(0deg) }
+}
+/*.top-header p{
+    margin: 0
+}*/
 
 .social{
   text-align: right;
@@ -2634,7 +2680,3 @@ div.feedback{
 {
     position: absolute; top:0; left: 0; width: 100%; height: 100%;
 }
-
-
-
-
